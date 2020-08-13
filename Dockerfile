@@ -21,14 +21,14 @@
 #
 #################################################################################################################################
 #
-# Image path: relenteny/python:3.7.4
+# Image path: relenteny/python:3.8.5
 #
 #################################################################################################################################
 
-FROM relenteny/pyenv:1.2.14
+FROM relenteny/pyenv:1.2.20
 
 LABEL relenteny.repository.url=https://github.com/relenteny/python
-LABEL relenteny.repository.tag=3.7.4
-LABEL relenteny.python.version=3.7.4
+LABEL relenteny.repository.tag=3.8.5
+LABEL relenteny.python.version=3.8.5
 
-RUN /home/alpine/bin/install-python.sh 3.7.4
+RUN /home/alpine/bin/install-python.sh 3.8.5
